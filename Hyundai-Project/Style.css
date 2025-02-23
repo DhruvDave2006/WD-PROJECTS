@@ -1,0 +1,942 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+}
+
+body {
+
+    background-color: #f6eeeedc;
+    width: 100vw;
+}
+.navbar{
+
+    background-color: white;
+    height: 80px;
+    color: #212529;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid #efefef;
+    padding-bottom: 20px;
+
+}
+
+/* .header {
+
+    margin-bottom: 50px;
+} */
+
+.nav-logo {
+
+    height: 70px;
+    width: 70px;
+}
+
+.logo {
+
+    background-image: url("Hyundai-Logo-2003-title.png");
+    height: 110px;
+    width: 160px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.pannel {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 51%;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.pannel a{
+
+    text-decoration: none;
+    color:#212529;
+    font-size: 14px;
+}
+
+
+.user-logo i{
+
+    margin-top: 20px;
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+
+.location-logo i{
+    margin-top: 20px;
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 20px;
+
+}
+
+.share-logo i{
+    margin-top: 20px;
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 20px;
+
+}
+
+.search-logo i{
+    margin-top: 20px;
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.container{
+
+    /* height: 800px;
+    width: 100%;
+    background-color: #F6F3F2;
+    position: relative; */
+    position: relative;
+}
+
+
+
+.container .wrapper{
+
+    width: 100vw;
+    height: 100vh;
+    margin: 5rem auto;
+    overflow: hidden;
+    
+}
+
+.container .wrapper-holder {
+
+    display: grid;
+    grid-template-columns: repeat(10, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 50s 1s infinite forwards;
+    /* animation: name duration timing-function delay iteration-count direction forwards; */
+    animation-delay: 2.5s;
+    
+}
+
+.slider-back-img-1 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("evcreta-home_orignal-pc.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.slider-back-img-2 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("ioniqnov2024-home-orignal-pc.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.slider-back-img-3 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("home_orignal_cngduopc.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.slider-back-img-4 {
+
+    /* margin-top: 10px; */
+    background-color: #F6F3F2;
+    background-image: url("venueadventurehomepc.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.slider-back-img-5 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("alcazarhomepc1.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.slider-back-img-6 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("knightinnerkvpc.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.slider-back-img-7 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("hyundai-evolvers-home-pc-1860x720.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.slider-back-img-8 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("home_samarth_pc\ \(1\).jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.slider-back-img-9 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("homepage-creative-pc.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.slider-back-img-10 {
+
+    margin-top: 10px;
+    background-color: #F6F3F2;
+    background-image: url("verna-homepage-desktop.jpg");
+    height: 80%;
+    width: 96%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    
+}
+
+@keyframes slider{
+
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-200%);}
+    30%{transform: translateX(-300%);}
+    40%{transform: translateX(-400%);}
+    50%{transform: translateX(-500%);}
+    60%{transform: translateX(-600%);}
+    70%{transform: translateX(-700%);}
+    80%{transform: translateX(-800%);}
+    90%{transform: translateX(-900%);}
+    100%{transform: translateX(-900%);}
+    
+}
+
+.heading-cars {
+
+    font-size: 50px;
+    font-family: "Poppins", serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.pannel-type {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin: 40px;
+    padding-left: 500px;
+    padding-right: 500px;
+    
+}
+
+.car-type a{
+
+    text-decoration: none;
+    color: #212529;
+    font-size: 18px;
+}
+
+.car-type:hover{
+
+    text-decoration: 3px underline;
+    color: aqua;
+
+}
+
+.box{
+
+    /* height: 800px;
+    width: 100%;
+    background-color: #F6F3F2;
+    position: relative; */
+    position: relative;
+}
+
+
+
+.box .main-wrap{
+
+    width: 100vw;
+    height:400px;
+    margin: 5rem auto;
+    overflow: hidden;
+    
+}
+
+.box .main-wrap-holder {
+
+    display: grid;
+    grid-template-columns: repeat(14, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider-car 120s infinite forwards;
+    /* animation: name duration timing-function delay iteration-count direction forwards; */
+    animation-play-state: running;
+    
+}
+
+.car-img-1 {
+
+    background-image: url('niosmodelpc.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.car-img-2 {
+
+    background-image: url('i20_Modelpc.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-3 {
+
+    background-image: url('i20-n-line_pc.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-4 {
+
+    background-image: url('AuraModelpc.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-5 {
+
+    background-image: url('verna-side.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-6 {
+
+    background-image: url('model-section_1600x590.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-7 {
+
+    background-image: url('model-section-pc.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-8 {
+
+    background-image: url('creta-suv-model-thumbnail-pc.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-9 {
+
+    background-image: url('Model_section_1600x590.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-10 {
+
+    background-image: url('alcazarmodel.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-11 {
+
+    background-image: url('creta-n-line-suv-thumbnail-pc.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-12 {
+
+    background-image: url('Model-section-pc-image.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-13 {
+
+    background-image: url('model-section-ioniq.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.car-img-14 {
+
+    background-image: url('modelcretaevhome.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+@keyframes slider-car{
+
+    0%{transform: translateX(0%);}
+    7%{transform: translateX(-100%);}
+    14%{transform: translateX(-200%);}
+    21%{transform: translateX(-300%);}
+    28%{transform: translateX(-400%);}
+    35%{transform: translateX(-500%);}
+    42%{transform: translateX(-600%);}
+    49%{transform: translateX(-700%);}
+    56%{transform: translateX(-800%);}
+    63%{transform: translateX(-900%);}
+    70%{transform: translateX(-1000%);}
+    77%{transform: translateX(-1100%);}
+    84%{transform: translateX(-1200%);}
+    91%{transform: translateX(-1300%);}
+    100%{transform: translateX(-1300%);}
+}
+
+.content .content-det{
+
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 300px;
+}
+.content-det a{
+
+    text-decoration: none;
+    color: #002c5f;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.details b{
+
+    color:#777676;
+}
+
+.details {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.details-in {
+
+    display:flex;
+    align-items:center;
+}
+
+
+.content{
+
+    /* height: 800px;
+    width: 100%;
+    background-color: #F6F3F2;
+    position: relative; */
+    position:relative;
+}
+
+
+
+.content .content-wrap{
+
+    width: 100vw;
+    height:150px;
+    margin: 5rem auto;
+    overflow: hidden;
+    
+}
+
+.content .content-wrap-holder {
+
+    display: grid;
+    grid-template-columns: repeat(14, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider-car 120s infinite forwards;
+    /* animation: name duration timing-function delay iteration-count direction forwards; */
+    animation-play-state: running;
+    
+}
+
+table{
+
+    width: 95%;
+}
+
+table td{
+
+    text-align:left;
+}
+
+.det{
+
+    color: #777676;
+    font-weight: 600;
+}
+
+
+
+@keyframes slider-car{
+
+    0%{transform: translateX(0%);}
+    7%{transform: translateX(-100%);}
+    14%{transform: translateX(-200%);}
+    21%{transform: translateX(-300%);}
+    28%{transform: translateX(-400%);}
+    35%{transform: translateX(-500%);}
+    42%{transform: translateX(-600%);}
+    49%{transform: translateX(-700%);}
+    56%{transform: translateX(-800%);}
+    63%{transform: translateX(-900%);}
+    70%{transform: translateX(-1000%);}
+    77%{transform: translateX(-1100%);}
+    84%{transform: translateX(-1200%);}
+    91%{transform: translateX(-1300%);}
+    100%{transform: translateX(-1300%);}
+}
+
+.knowmore{
+
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+.knowmore button{
+
+    width: 250px;
+    height: 50px;
+    background-color: #767676;
+    color: #FFFFFF;
+    border: 0px solid;
+}
+
+.new-feed{
+
+    height: 150px;
+    width: 100%;
+    background-color: #002C5F;
+    color: white;
+    padding-top: 40px;
+    padding-left: 200px;
+    font-size: 30px;
+}
+
+.new-feed b{
+
+    font-size: large;
+}
+
+.brand{
+
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.creta{
+
+    height: 400px;
+    width: 350px;
+    background-image: url('cretaevhomepage_1.jpg');
+}
+
+.samarth{
+
+    height: 400px;
+    width: 350px;
+    background-image: url('samarth_homepage.jpg');
+}
+
+.empower{
+
+    height: 400px;
+    width: 350px;
+    background-image: url('unveiling.jpg');
+}
+
+.brand-work{
+
+    padding-top: 380px;
+    font-size: larger;
+}
+
+.brand-work a{
+
+    text-decoration: none;
+    color: #002C5F;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.social{
+
+    height: 200px;
+    width: 100%;
+    background-color: #002C5F;
+    color: white;
+    padding-top: 40px;
+    padding-left: 200px;
+    font-size: 40px;
+}
+
+.social b{
+
+    font-size: 20px;
+}
+
+.social-img{
+
+    height: 1000px;
+    width: 100%;
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.s1{
+
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.ioniq-5{
+    height: 400px;
+    width: 350px;
+    background-image: url('worldrecord.jpg');
+    /* transform-style: preserve-3d;
+    transition: transform 1s ease-in-out; */
+    cursor: pointer;
+
+}
+
+/* .content-hover{
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    
+} */
+
+/* .ioniq-5:hover{
+
+    transform: rotateY(180deg);
+} */
+
+.creta-ev{
+    height: 400px;
+    width: 350px;
+    background-image: url('cretaevhomepage_1.jpg');
+    cursor: pointer;
+
+}
+
+.bm-2025{
+    height: 400px;
+    width: 350px;
+    background-image: url('flex-creta.jpg');
+    cursor: pointer;
+
+
+}
+
+.evolvers{
+    height: 400px;
+    width: 350px;
+    background-image: url('evolverssocial.jpg');
+    cursor: pointer;
+
+
+}
+
+.ind-drive{
+    height: 400px;
+    width: 350px;
+    background-image: url('greatindiadrive.jpg');
+    cursor: pointer;
+
+
+}
+
+.samarth-social{
+    height: 400px;
+    width: 350px;
+    background-image: url('jalosh1social.jpg');
+    cursor: pointer;
+
+
+}
+
+.dealer{
+
+    height: 300px;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    background-color: white;
+    font-weight: 600;
+}
+
+.dealer b{
+
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#dealership{
+
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.dealership-content{
+
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#search{
+
+    width: 300px;
+}
+
+i{
+
+    /* border: 1px solid black; */
+    font-size: 20px;
+
+}
+
+#test{
+
+    width: 140px;
+}
+
+button{
+
+    text-align: center;
+    background-color: #002C5F;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.foot-panal-1{
+
+    height:600px;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+
+.help{
+
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+.foot-panal-1 a{
+
+    text-decoration: none;
+    color: #cfc8c2;
+    
+}
+
+.copyright{
+
+    height: 100px;
+    width: 100%;
+    background-color: #212529;
+    text-align: center;
+
+}
+
+.copyright a{
+
+    text-decoration: none;
+    color: #cfc8c2;
+
+}
+
+.sticky{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #002c5f;
+    height: 100px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    /* position: sticky; */
+    
+}
+
+.sticky a{
+
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.sticky a:hover{
+    text-decoration: 2px underline;
+    color: white;
+
+}
