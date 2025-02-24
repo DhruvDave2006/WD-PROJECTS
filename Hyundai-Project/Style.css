@@ -751,35 +751,82 @@ table td{
     /* transform-style: preserve-3d;
     transition: transform 1s ease-in-out; */
     cursor: pointer;
+    padding: 30px;
 
 }
 
-/* .content-hover{
+.ioniq-5 .ioniq-5-wr{
 
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.5);
+    height: 340px;
+    color: white;
+    background-color:  rgba(0, 44, 95,0.5);
+    /* opacity: 0.5; */
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction:column;
-    
-} */
+    opacity: 0;
+    transition: 0.6s;
+}
 
-/* .ioniq-5:hover{
+.ioniq-5-wr:hover{
 
-    transform: rotateY(180deg);
-} */
+    opacity: 1;
+}
+
+.ioniq-5-wr > *{
+
+    transform: translateY(25px);
+    transition: transform 0.6s;
+
+}
+
+.ioniq-5-wr:hover > *{
+
+    transform: translateY(0px);
+}
+
 
 .creta-ev{
     height: 400px;
     width: 350px;
     background-image: url('cretaevhomepage_1.jpg');
     cursor: pointer;
+    padding: 30px;
 
+}
+
+.creta-ev .creta-ev-wr{
+
+    height: 340px;
+    color: white;
+    background-color:  rgba(0, 44, 95,0.5);
+    /* opacity: 0.5; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.creta-ev-wr:hover{
+
+    opacity: 1;
+}
+
+.creta-ev-wr > *{
+
+    transform: translateY(25px);
+    transition: transform 0.6s;
+
+}
+
+.creta-ev-wr:hover > *{
+
+    transform: translateY(0px);
 }
 
 .bm-2025{
@@ -787,8 +834,40 @@ table td{
     width: 350px;
     background-image: url('flex-creta.jpg');
     cursor: pointer;
+    padding: 30px;
 
+}
 
+.bm-2025 .bm-2025-wr{
+
+    height: 340px;
+    color: white;
+    background-color:  rgba(0, 44, 95,0.5);
+    /* opacity: 0.5; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.bm-2025-wr:hover{
+
+    opacity: 1;
+}
+
+.bm-2025-wr > *{
+
+    transform: translateY(25px);
+    transition: transform 0.6s;
+
+}
+
+.bm-2025-wr:hover > *{
+
+    transform: translateY(0px);
 }
 
 .evolvers{
@@ -796,26 +875,123 @@ table td{
     width: 350px;
     background-image: url('evolverssocial.jpg');
     cursor: pointer;
+    padding: 30px;
+}
 
+.evolvers .evolvers-wr{
+
+    height: 340px;
+    color: white;
+    background-color:  rgba(0, 44, 95,0.5);
+    /* opacity: 0.5; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.evolvers-wr:hover{
+
+    opacity: 1;
+}
+
+.evolvers-wr > *{
+
+    transform: translateY(25px);
+    transition: transform 0.6s;
 
 }
+
+.evolvers-wr:hover > *{
+
+    transform: translateY(0px);
+}
+
+
 
 .ind-drive{
     height: 400px;
     width: 350px;
     background-image: url('greatindiadrive.jpg');
     cursor: pointer;
+    padding: 30px;
+}
 
+.ind-drive .ind-drive-wr{
+
+    height: 340px;
+    color: white;
+    background-color:  rgba(0, 44, 95,0.5);
+    /* opacity: 0.5; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.ind-drive-wr:hover{
+
+    opacity: 1;
+}
+
+.ind-drive-wr > *{
+
+    transform: translateY(25px);
+    transition: transform 0.6s;
 
 }
+
+.ind-drive-wr:hover > *{
+
+    transform: translateY(0px);
+}
+
+
 
 .samarth-social{
     height: 400px;
     width: 350px;
     background-image: url('jalosh1social.jpg');
     cursor: pointer;
+    padding: 30px;
+}
 
+.samarth-social .samarth-social-wr{
 
+    height: 340px;
+    color: white;
+    background-color:  rgba(0, 44, 95,0.5);
+    /* opacity: 0.5; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.samarth-social-wr:hover{
+
+    opacity: 1;
+}
+
+.samarth-social-wr > *{
+
+    transform: translateY(25px);
+    transition: transform 0.6s;
+
+}
+
+.samarth-social-wr:hover > *{
+
+    transform: translateY(0px);
 }
 
 .dealer{
