@@ -1,0 +1,37 @@
+
+body{
+
+    font-family: "Poppins", serif;
+}
+
+
+.bold{
+
+background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.head{
+
+background: linear-gradient(120deg, #28ae9f 40%, #b82d07b9 60%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+main{
+
+    animation: upcast 1s ease-in-out 0s 1 normal backwards;
+}
+
+@keyframes upcast {
+    from{
+        top: 50px;
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
